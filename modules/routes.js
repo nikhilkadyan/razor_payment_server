@@ -1,9 +1,14 @@
 module.exports = function (app) {
     const Razorpay = require('razorpay');
+    const path = require('path');
 
     var instance = new Razorpay({
         key_id: process.env.RAZOR_KEY,
         key_secret: process.env.RAZOR_SECRET
+    })
+
+    app.get('/', (req, res) => {
+        res.sendFile(path.join(__dirname + '/../index.html'));
     })
 
     app.get('/products', (req, res) => {
