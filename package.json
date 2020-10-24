@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nikhilkadyan/razor_charge_server.git"
+    "url": "git+https://github.com/nikhilkadyan/razor_payment_server.git"
   },
   "author": "Nikhil Kadyan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nikhilkadyan/razor_charge_server/issues"
+    "url": "https://github.com/nikhilkadyan/razor_payment_server/issues"
   },
-  "homepage": "https://github.com/nikhilkadyan/razor_charge_server#readme",
+  "homepage": "https://github.com/nikhilkadyan/razor_payment_server#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
