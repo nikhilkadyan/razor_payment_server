@@ -6,7 +6,7 @@ module.exports = function(){
             amount: 999,
             currency: 'INR',
             demo: 'http://smm.nikhilkadyan.com',
-            secret: 'https://drive.google.com/file/d/1y6TEP2QWsZ6gzqpqKrlJdGIT2WWz09_8/view?usp=sharing'
+            secret: 'https://drive.google.com/file/d/16kd0iS1pO8zQdOTcU0zxRLOlEf-bx43H/view?usp=sharing'
         }
     ];
 
